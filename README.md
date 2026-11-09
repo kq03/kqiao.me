@@ -1,47 +1,17 @@
-# kqiao.me - Personal Website
+# Kai Qiao's personal website
 
-This is my personal website showcasing my background, academic achievements, and interests. The site is built using the "Solid State" template from HTML5 UP.
+A static academic website adapted from [Jon Barron’s template](https://jonbarron.info/).
 
-## Pages
+## Preview
 
-- **Home** (`index.html`) - Main landing page
-- **About** (`about.html`) - Personal basic information
-- **Academic** (`academic.html`) - Academic background and achievements  
-- **Interests** (`interests.html`) - Personal interests and hobbies
+Run `python3 -m http.server 8000` from this directory, then open http://localhost:8000. No dependencies or build step are required.
 
-## Template Credits
+## Hosting
 
-This website is based on the **Solid State** template by HTML5 UP.
+Publish `index.html`, `stylesheet.css`, and the `images/` directory with any static host. For GitHub Pages, select the intended branch and `/ (root)` under Settings → Pages.
 
-### Original Template Information
-- **Template:** Solid State by HTML5 UP
-- **Website:** [html5up.net](http://html5up.net)
-- **Author:** @ajlkn
-- **License:** Free for personal and commercial use under the CCA 3.0 license ([html5up.net/license](http://html5up.net/license))
+For a custom domain such as `kqiao.me`, configure the domain in your hosting provider and its DNS records. This repository currently ignores `CNAME`; if your host requires a committed `CNAME`, remove that ignore rule and add the domain file.
 
-### Template Credits
+## Updating
 
-**Demo Images:**
-- Unsplash ([unsplash.com](https://unsplash.com))
-
-**Icons:**
-- Font Awesome ([fontawesome.io](https://fontawesome.io))
-
-**Other:**
-- jQuery ([jquery.com](https://jquery.com))
-- Scrollex ([github.com/ajlkn/jquery.scrollex](https://github.com/ajlkn/jquery.scrollex))
-- Responsive Tools ([github.com/ajlkn/responsive-tools](https://github.com/ajlkn/responsive-tools))
-
-## Project Structure
-
-- `index.html` - Main homepage
-- `about.html` - Personal information page
-- `academic.html` - Academic background page
-- `interests.html` - Personal interests page
-- `assets/` - CSS, JavaScript, and other assets
-- `images/` - Website images
-- `css/` - Additional stylesheets
-
-## License
-
-This project uses the Solid State template which is licensed under the CCA 3.0 license. See the original template license at [html5up.net/license](http://html5up.net/license).
+Edit biography, publication details, and links in `index.html`; keep image paths in sync with `images/`. Miscellanea is commented out until needed. Appearance and responsive image sizing are controlled by `stylesheet.css`.
