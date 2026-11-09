@@ -8,9 +8,9 @@ Run `python3 -m http.server 8000` from this directory, then open http://localhos
 
 ## Hosting
 
-Publish `index.html`, `stylesheet.css`, and the `images/` directory with any static host. For GitHub Pages, select the intended branch and `/ (root)` under Settings → Pages.
+The website is already hosted on GitHub Pages at [kqiao.me](https://kqiao.me). The custom domain and hosting are configured.
 
-For a custom domain such as `kqiao.me`, configure the domain in your hosting provider and its DNS records. This repository currently ignores `CNAME`; if your host requires a committed `CNAME`, remove that ignore rule and add the domain file.
+Push updates to the branch configured as the GitHub Pages source to publish changes. The site consists of `index.html`, `stylesheet.css`, and the `images/` directory; no build step is required.
 
 ## Updating
 
